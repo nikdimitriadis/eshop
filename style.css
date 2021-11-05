@@ -475,3 +475,70 @@ img {
     align-items: center;
   }
 }
+
+/* footer styling */
+
+.footer {
+  line-height: 1.5;
+}
+
+.black {
+  color: black;
+}
+
+small,
+.footer-flex span {
+  font-size: 1.1rem;
+}
+
+.big600 {
+  font-weight: 600;
+}
+
+/* contact */
+
+.span-block {
+  display: block;
+}
+
+.big800 {
+  font-weight: 800;
+}
+
+.italia {
+  font-style: italic;
+}
+
+.footer-small {
+  color: #848484;
+}
+
+.telia {
+  font-size: 2rem;
+  position: relative;
+  top: 2px;
+}
+
+.fm {
+  margin: 3rem 0;
+}
+
+@media (min-width: 600px) {
+  .footer-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1000px) {
+  .footer-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-flex {
+    display: flex;
+    justify-content: unset;
+    column-gap: 25rem;
+  }
+}
