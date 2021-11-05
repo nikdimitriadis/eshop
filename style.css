@@ -165,168 +165,168 @@ body {
 /* positioning in the container */
 
 .nav {
-  grid-area: "nav";
+  grid-area: nav;
 }
 
 .bunt-bag {
-  grid-area: "bunt-bag";
+  grid-area: bunt-bag;
 }
 
 .thesi1 {
-  grid-area: "proto";
+  grid-area: proto;
 }
 
 .whiteBook {
-  grid-area: "whiteBook";
+  grid-area: whiteBook;
 }
 
 .thesi2 {
-  grid-area: "deutero";
+  grid-area: deutero;
 }
 
 .mauriLampa {
-  grid-area: "mauriLampa";
+  grid-area: mauriLampa;
 }
 
 .thesi3 {
-  grid-area: "trito";
+  grid-area: trito;
 }
 
 .blueBook {
-  grid-area: "blueBook";
+  grid-area: blueBook;
 }
 
 .thesi4 {
-  grid-area: "tetarto";
+  grid-area: tetarto;
 }
 
 .asproMauro {
-  grid-area: "asproMauro";
+  grid-area: asproMauro;
 }
 
 .thesi-trito {
-  grid-area: "trito-tria";
+  grid-area: trito-tria;
 }
 
 .footer {
-  grid-area: "footer";
+  grid-area: footer;
 }
 
 /* eksades stin thesi */
 
 /* prwti eksada */
 .kafeLampa {
-  grid-area: "kafeLampa";
+  grid-area: kafeLampa;
 }
 
 .blackBag {
-  grid-area: "blackBag";
+  grid-area: blackBag;
 }
 
 .skateboard {
-  grid-area: "skateboard";
+  grid-area: skateboard;
 }
 
 .tsaigiera {
-  grid-area: "tsaigiera";
+  grid-area: tsaigiera;
 }
 
 .autokinitaki {
-  grid-area: "autokinitaki";
+  grid-area: autokinitaki;
 }
 
 .redBook {
-  grid-area: "redBook";
+  grid-area: redBook;
 }
 
 /* deuteri eksada */
 .theEye {
-  grid-area: "theEye";
+  grid-area: theEye;
 }
 
 .servitsio {
-  grid-area: "servitsio";
+  grid-area: servitsio;
 }
 
 .blackBottle {
-  grid-area: "blackBottle";
+  grid-area: blackBottle;
 }
 
 .chair {
-  grid-area: "chair";
+  grid-area: chair;
 }
 
 .fieldNotes {
-  grid-area: "fieldNotes";
+  grid-area: fieldNotes;
 }
 
 .fromJapan {
-  grid-area: "fromJapan";
+  grid-area: fromJapan;
 }
 
 /* trti eksada */
 .watch {
-  grid-area: "watch";
+  grid-area: watch;
 }
 
 .paint {
-  grid-area: "paint";
+  grid-area: paint;
 }
 
 .whiteBottle {
-  grid-area: "whiteBottle";
+  grid-area: whiteBottle;
 }
 
 .akoustikaAsimi {
-  grid-area: "akoustikaAsimi";
+  grid-area: akoustikaAsimi;
 }
 
 .makeItNow {
-  grid-area: "makeItNow";
+  grid-area: makeItNow;
 }
 
 .standaki {
-  grid-area: "standaki";
+  grid-area: standaki;
 }
 
 /* deuteri eksada */
 
 .gridSystems {
-  grid-area: "gridSystems";
+  grid-area: gridSystems;
 }
 
 .wallet {
-  grid-area: "wallet";
+  grid-area: wallet;
 }
 
 .blackBook {
-  grid-area: "blackBook";
+  grid-area: blackBook;
 }
 
 .pontiki {
-  grid-area: "pontiki";
+  grid-area: pontiki;
 }
 
 .travelTumbler {
-  grid-area: "travelTumbler";
+  grid-area: travelTumbler;
 }
 
 .pliktro {
-  grid-area: "pliktro";
+  grid-area: pliktro;
 }
 
 /* last section me 3 divs */
 
 .thermos {
-  grid-area: "thermos";
+  grid-area: thermos;
 }
 
 .polithrona {
-  grid-area: "polithrona";
+  grid-area: polithrona;
 }
 
 .filtro {
-  grid-area: "filtro";
+  grid-area: filtro;
 }
 
 /* styling */
