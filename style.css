@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+  color: #323a45;
+  padding: 0 1rem;
+}
+
+/* general grid  */
+.container-body {
+  display: grid;
+  grid-template-rows: repeat(12, auto);
+  border: none;
+  margin: auto;
+}
+
+/* 6ades grid */
+.grid-eksi {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+@media (min-width: 600px) {
+  .grid-eksi {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+}
+
+/* grid-3 panw footer */
+.grid-tria {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 3rem;
+}
+
+@media (min-width: 600px) {
+  .grid-tria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 3rem;
+  }
+}
+
+/* areas-names */
+
+.names {
+  grid-template-areas:
+    "nav"
+    "bunt-bag"
+    "proto"
+    "whiteBook"
+    "deutero"
+    "mauriLampa"
+    "trito"
+    "blueBook"
+    "tetarto"
+    "asproMauro"
+    "trito-tria"
+    "footer";
+}
+
+/* eksades onomata */
+
+/* prwti eksada */
+.prwto-onomata {
+  grid-template-areas:
+    "kafeLampa"
+    "blackBag"
+    "skateboard"
+    "tsaigiera"
+    "autokinitaki"
+    "redBook";
+}
+
+@media (min-width: 600px) {
+  .prwto-onomata {
+    grid-template-areas:
+      "kafeLampa blackBag skateboard"
+      "tsaigiera autokinitaki redBook";
+  }
+}
+
+/* 2h eksada */
+.deutero-onomata {
+  grid-template-areas:
+    "theEye"
+    "servitsio"
+    "blackBottle"
+    "chair"
+    "fieldNotes"
+    "fromJapan";
+}
+
+@media (min-width: 600px) {
+  .deutero-onomata {
+    grid-template-areas:
+      "theEye servitsio blackBottle"
+      "chair fieldNotes fromJapan";
+  }
+}
+
+/* 3h eksada */
+.trito-onomata {
+  grid-template-areas:
+    "watch"
+    "paint"
+    "whiteBottle"
+    "akoustikaAsimi"
+    "makeItNow"
+    "standaki";
+}
+
+@media (min-width: 600px) {
+  .trito-onomata {
+    grid-template-areas:
+      "watch paint whiteBottle"
+      "akoustikaAsimi makeItNow standaki";
+  }
+}
+
+/* 4h eksada */
+.tetarto-onomata {
+  grid-template-areas:
+    "gridSystems"
+    "wallet"
+    "blackBook"
+    "pontiki"
+    "travelTumbler"
+    "pliktro";
+}
+
+@media (min-width: 600px) {
+  .tetarto-onomata {
+    grid-template-areas:
+      "gridSystems wallet blackBook"
+      "pontiki travelTumbler pliktro";
+  }
+}
+
+/* 3ada  */
+
+.tria-proto-onomata {
+  grid-template-areas:
+    "thermos"
+    "polithrona"
+    "filtro";
+}
+
+@media (min-width: 600px) {
+  .tria-proto-onomata {
+    grid-template-areas: "thermos polithrona filtro";
+  }
+}
+
+/* positioning in the container */
+
+.nav {
+  grid-area: "nav";
+}
+
+.bunt-bag {
+  grid-area: "bunt-bag";
+}
+
+.thesi1 {
+  grid-area: "proto";
+}
+
+.whiteBook {
+  grid-area: "whiteBook";
+}
+
+.thesi2 {
+  grid-area: "deutero";
+}
+
+.mauriLampa {
+  grid-area: "mauriLampa";
+}
+
+.thesi3 {
+  grid-area: "trito";
+}
+
+.blueBook {
+  grid-area: "blueBook";
+}
+
+.thesi4 {
+  grid-area: "tetarto";
+}
+
+.asproMauro {
+  grid-area: "asproMauro";
+}
+
+.thesi-trito {
+  grid-area: "trito-tria";
+}
+
+.footer {
+  grid-area: "footer";
+}
+
+/* eksades stin thesi */
+
+/* prwti eksada */
+.kafeLampa {
+  grid-area: "kafeLampa";
+}
+
+.blackBag {
+  grid-area: "blackBag";
+}
+
+.skateboard {
+  grid-area: "skateboard";
+}
+
+.tsaigiera {
+  grid-area: "tsaigiera";
+}
+
+.autokinitaki {
+  grid-area: "autokinitaki";
+}
+
+.redBook {
+  grid-area: "redBook";
+}
+
+/* deuteri eksada */
+.theEye {
+  grid-area: "theEye";
+}
+
+.servitsio {
+  grid-area: "servitsio";
+}
+
+.blackBottle {
+  grid-area: "blackBottle";
+}
+
+.chair {
+  grid-area: "chair";
+}
+
+.fieldNotes {
+  grid-area: "fieldNotes";
+}
+
+.fromJapan {
+  grid-area: "fromJapan";
+}
+
+/* trti eksada */
+.watch {
+  grid-area: "watch";
+}
+
+.paint {
+  grid-area: "paint";
+}
+
+.whiteBottle {
+  grid-area: "whiteBottle";
+}
+
+.akoustikaAsimi {
+  grid-area: "akoustikaAsimi";
+}
+
+.makeItNow {
+  grid-area: "makeItNow";
+}
+
+.standaki {
+  grid-area: "standaki";
+}
+
+/* deuteri eksada */
+
+.gridSystems {
+  grid-area: "gridSystems";
+}
+
+.wallet {
+  grid-area: "wallet";
+}
+
+.blackBook {
+  grid-area: "blackBook";
+}
+
+.pontiki {
+  grid-area: "pontiki";
+}
+
+.travelTumbler {
+  grid-area: "travelTumbler";
+}
+
+.pliktro {
+  grid-area: "pliktro";
+}
+
+/* last section me 3 divs */
+
+.thermos {
+  grid-area: "thermos";
+}
+
+.polithrona {
+  grid-area: "polithrona";
+}
+
+.filtro {
+  grid-area: "filtro";
+}
+
+/* styling */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap");
+
+.grey {
+  color: #848484;
+}
+
+p,
+.grey {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.infos {
+  margin-bottom: 5rem;
+}
+
+.foto {
+  margin-bottom: 1rem;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav */
+/* Span company name */
+
+.nav {
+  color: black;
+}
+
+.nav a {
+  color: black;
+}
+
+.company-name {
+  margin-bottom: 1.4rem;
+}
+
+.company-name a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 780px) {
+  .company-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+/* Icon top Navbar */
+.navigation-chev {
+  font-size: 2rem;
+  transition: all 0.4s;
+  margin-right: 10px;
+}
+
+.navigation-chev.rotated {
+  transform: rotate(-90deg);
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 780px) {
+  .navigation-chev {
+    display: none;
+  }
+}
+
+/* UL FROM NAVIGATION BAR ON TOP */
+.choices {
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  transition: all 1s ease-in-out;
+}
+
+.choices.choice-size.hiden {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* li && a Skin */
+.choices li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.choices li:hover,
+.company-name:hover {
+  opacity: 0.6;
+}
+
+.choices li:nth-child(-n + 2) {
+  padding-right: 5%;
+}
+
+.choices a {
+  text-decoration: none;
+  font-size: bold;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 780px) {
+  .choices {
+    flex-direction: row;
+    justify-content: end;
+    padding: 0px;
+    flex: 1;
+  }
+  .choices li {
+    transition: all 0.4s;
+  }
+
+  .choices.choice-size.hiden {
+    max-height: 100%;
+    opacity: 1;
+  }
+}
+/*Navigation Nav Navigation nav*/
+.nav-flex {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 780px) {
+  .nav-flex {
+    padding: 2rem 0;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
