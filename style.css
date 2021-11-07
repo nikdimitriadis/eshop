@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap");
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,341 +13,34 @@ html {
 body {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 2rem;
   font-family: "Karla", sans-serif;
   color: #323a45;
-  padding: 0 1rem;
-}
-
-/* general grid  */
-.container-body {
-  display: grid;
-  grid-template-rows: repeat(12, auto);
-  border: none;
-  margin: auto;
-}
-
-/* 6ades grid */
-.grid-eksi {
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-}
-
-@media (min-width: 600px) {
-  .grid-eksi {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 3rem;
-  }
-}
-
-/* grid-3 panw footer */
-.grid-tria {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  column-gap: 3rem;
-}
-
-@media (min-width: 600px) {
-  .grid-tria {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    column-gap: 3rem;
-  }
-}
-
-/* areas-names */
-
-.names {
-  grid-template-areas:
-    "nav"
-    "bunt-bag"
-    "proto"
-    "whiteBook"
-    "deutero"
-    "mauriLampa"
-    "trito"
-    "blueBook"
-    "tetarto"
-    "asproMauro"
-    "trito-tria"
-    "footer";
-}
-
-/* eksades onomata */
-
-/* prwti eksada */
-.prwto-onomata {
-  grid-template-areas:
-    "kafeLampa"
-    "blackBag"
-    "skateboard"
-    "tsaigiera"
-    "autokinitaki"
-    "redBook";
-}
-
-@media (min-width: 600px) {
-  .prwto-onomata {
-    grid-template-areas:
-      "kafeLampa blackBag skateboard"
-      "tsaigiera autokinitaki redBook";
-  }
-}
-
-/* 2h eksada */
-.deutero-onomata {
-  grid-template-areas:
-    "theEye"
-    "servitsio"
-    "blackBottle"
-    "chair"
-    "fieldNotes"
-    "fromJapan";
-}
-
-@media (min-width: 600px) {
-  .deutero-onomata {
-    grid-template-areas:
-      "theEye servitsio blackBottle"
-      "chair fieldNotes fromJapan";
-  }
-}
-
-/* 3h eksada */
-.trito-onomata {
-  grid-template-areas:
-    "watch"
-    "paint"
-    "whiteBottle"
-    "akoustikaAsimi"
-    "makeItNow"
-    "standaki";
-}
-
-@media (min-width: 600px) {
-  .trito-onomata {
-    grid-template-areas:
-      "watch paint whiteBottle"
-      "akoustikaAsimi makeItNow standaki";
-  }
-}
-
-/* 4h eksada */
-.tetarto-onomata {
-  grid-template-areas:
-    "gridSystems"
-    "wallet"
-    "blackBook"
-    "pontiki"
-    "travelTumbler"
-    "pliktro";
-}
-
-@media (min-width: 600px) {
-  .tetarto-onomata {
-    grid-template-areas:
-      "gridSystems wallet blackBook"
-      "pontiki travelTumbler pliktro";
-  }
-}
-
-/* 3ada  */
-
-.tria-proto-onomata {
-  grid-template-areas:
-    "thermos"
-    "polithrona"
-    "filtro";
-}
-
-@media (min-width: 600px) {
-  .tria-proto-onomata {
-    grid-template-areas: "thermos polithrona filtro";
-  }
-}
-
-/* positioning in the container */
-
-.nav {
-  grid-area: nav;
-}
-
-.bunt-bag {
-  grid-area: bunt-bag;
-}
-
-.thesi1 {
-  grid-area: proto;
-}
-
-.whiteBook {
-  grid-area: whiteBook;
-}
-
-.thesi2 {
-  grid-area: deutero;
-}
-
-.mauriLampa {
-  grid-area: mauriLampa;
-}
-
-.thesi3 {
-  grid-area: trito;
-}
-
-.blueBook {
-  grid-area: blueBook;
-}
-
-.thesi4 {
-  grid-area: tetarto;
-}
-
-.asproMauro {
-  grid-area: asproMauro;
-}
-
-.thesi-trito {
-  grid-area: trito-tria;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-/* eksades stin thesi */
-
-/* prwti eksada */
-.kafeLampa {
-  grid-area: kafeLampa;
-}
-
-.blackBag {
-  grid-area: blackBag;
-}
-
-.skateboard {
-  grid-area: skateboard;
-}
-
-.tsaigiera {
-  grid-area: tsaigiera;
-}
-
-.autokinitaki {
-  grid-area: autokinitaki;
-}
-
-.redBook {
-  grid-area: redBook;
-}
-
-/* deuteri eksada */
-.theEye {
-  grid-area: theEye;
-}
-
-.servitsio {
-  grid-area: servitsio;
-}
-
-.blackBottle {
-  grid-area: blackBottle;
-}
-
-.chair {
-  grid-area: chair;
-}
-
-.fieldNotes {
-  grid-area: fieldNotes;
-}
-
-.fromJapan {
-  grid-area: fromJapan;
-}
-
-/* trti eksada */
-.watch {
-  grid-area: watch;
-}
-
-.paint {
-  grid-area: paint;
-}
-
-.whiteBottle {
-  grid-area: whiteBottle;
-}
-
-.akoustikaAsimi {
-  grid-area: akoustikaAsimi;
-}
-
-.makeItNow {
-  grid-area: makeItNow;
-}
-
-.standaki {
-  grid-area: standaki;
-}
-
-/* deuteri eksada */
-
-.gridSystems {
-  grid-area: gridSystems;
-}
-
-.wallet {
-  grid-area: wallet;
-}
-
-.blackBook {
-  grid-area: blackBook;
-}
-
-.pontiki {
-  grid-area: pontiki;
-}
-
-.travelTumbler {
-  grid-area: travelTumbler;
-}
-
-.pliktro {
-  grid-area: pliktro;
-}
-
-/* last section me 3 divs */
-
-.thermos {
-  grid-area: thermos;
-}
-
-.polithrona {
-  grid-area: polithrona;
-}
-
-.filtro {
-  grid-area: filtro;
-}
-
-/* styling */
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500&display=swap");
-
-.grey {
-  color: #848484;
-}
-
-p,
-.grey {
-  font-size: 1.5rem;
-  font-weight: 600;
 }
 
 img {
   width: 100%;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  gap: 5%;
+}
+
+@media (min-width: 768px) {
+  .box3 {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    gap: 5%;
+  }
+}
+
+/* style */
+.grey {
+  color: #848484;
 }
 
 .infos {
@@ -359,8 +56,18 @@ img {
   justify-content: space-between;
 }
 
+p,
+.grey {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /* nav */
 /* Span company name */
+
+.mar-bot {
+  margin-bottom: 2rem;
+}
 
 .nav {
   color: black;
@@ -368,10 +75,6 @@ img {
 
 .nav a {
   color: black;
-}
-
-.company-name {
-  margin-bottom: 1.4rem;
 }
 
 .company-name a {
@@ -389,9 +92,10 @@ img {
 
 /* Icon top Navbar */
 .navigation-chev {
-  font-size: 2rem;
+  position: relative;
   transition: all 0.4s;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .navigation-chev.rotated {
@@ -465,6 +169,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (min-width: 780px) {
@@ -476,6 +181,32 @@ img {
   }
 }
 
+/* anime burg */
+.menu {
+  position: relative;
+}
+
+.menu div {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 3px;
+  transition: all 1s;
+}
+
+.peristrofi1 {
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.peristrofi2 {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.diagrafi {
+  opacity: 0;
+}
 /* footer styling */
 
 .footer {
@@ -541,4 +272,27 @@ small,
     justify-content: unset;
     column-gap: 25rem;
   }
+}
+
+/* greybg */
+.foto {
+  position: relative;
+  overflow: hidden;
+}
+
+.foto:before {
+  content: " ";
+  background-color: #f7f7f7;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.foto:hover:before {
+  opacity: 0.7;
+  visibility: visible;
+  cursor: pointer;
 }
